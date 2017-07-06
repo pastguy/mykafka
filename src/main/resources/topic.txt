@@ -1,0 +1,5 @@
+创建topic
+./kafka-topics.sh --zookeeper localhost:2181/kafka --topic users --create --partition 2 --replication-factor 1
+./kafka-topics.sh --zookeeper localhost:2181/kafka --topic items --create --partition 2 --replication-factor 1
+./kafka-topics.sh --zookeeper localhost:2181/kafka --topic orders --create --partition 2 --replication-factor 1
+./kafka-topics.sh --zookeeper localhost:2181/kafka --topic result --create --partition 2 --replication-factor 1
